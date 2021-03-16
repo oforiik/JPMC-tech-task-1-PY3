@@ -1,0 +1,23 @@
+From e9e351afdf9f51464fa22fc8000be45466be1d54 Mon Sep 17 00:00:00 2001
+From: Kevin <kevinagyei2017@gmail.com>
+Date: Tue, 16 Mar 2021 18:40:25 +0000
+Subject: [PATCH] bonus task complete
+
+---
+ client_test.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/client_test.py b/client_test.py
+index 4010162..771347a 100644
+--- a/client_test.py
++++ b/client_test.py
+@@ -1,5 +1,5 @@
+ import unittest
+-from client3 import getDataPoint
++from client3 import getDataPoint, getRatio
+ 
+ class ClientTest(unittest.TestCase):
+   def test_getDataPoint_calculatePrice(self):
+-- 
+2.30.1.windows.1
+
